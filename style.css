@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 42px;
+}
+input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    font-size: 24px;
+}
+button{
+    background: blue;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+button:hover{
+    background: blueviolet;
+}
+section{
+    margin-top: 50px;
+}
+.list{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 465px) {
+    button{
+        margin-top: 20px;
+    }
+}
+
+
+
+
